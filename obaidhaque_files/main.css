@@ -129,7 +129,7 @@ body{
 
 .pillButton:hover{
     background-color: #76777F;
-    border-width: 3px;
+    border-width: 4px;
     border-color: #76777F;
 
     color: white; /* THIS IS THE TEXT COLOR */
