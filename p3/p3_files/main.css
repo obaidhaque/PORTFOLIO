@@ -48,6 +48,13 @@
 
 /*          SECTION ----- HTML Elements          */
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -286,6 +293,7 @@ body{
     color: black;
  /*   position: absolute; */
 
+
 }
 
 .projectContainer:after {
@@ -366,11 +374,13 @@ video{
     margin: auto;
     float:right;
     text-align: center;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-top: -20px;
+    padding=bottom: -20px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-family: 'Helvetica Neue';
     font-weight: bold;
-    font-size: 25px; /* SKETCH */
+    font-size: 25px; /*  1.75vw SKETCH */
     line-height: 50px; /* SKETCH */
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
