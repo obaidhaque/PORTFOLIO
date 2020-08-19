@@ -380,7 +380,7 @@ video{
     padding-right: 25px;
     font-family: 'Helvetica Neue';
     font-weight: bold;
-    font-size: 25px; /*  1.75vw SKETCH */
+    font-size: 1.75vw; /*  25px SKETCH */
     line-height: 50px; /* SKETCH */
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
